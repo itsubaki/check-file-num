@@ -55,12 +55,12 @@ func run(args []string) *checkers.Checker {
 	current := int64(len(files))
 
 	result := checkers.OK
-	if current > opts.CriticalNum {
-		result = checkers.CRITICAL
-	}
-
 	if current > opts.WarningNum {
 		result = checkers.WARNING
+	}
+
+	if current > opts.CriticalNum {
+		result = checkers.CRITICAL
 	}
 
 	msg := fmt.Sprintf("count=%d", current)
