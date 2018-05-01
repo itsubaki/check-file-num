@@ -3,7 +3,18 @@
 # Help
 
 ```
+$ check-file-num -h
+Usage:
+  check-file-num [OPTIONS]
 
+Application Options:
+  -b, --base=         the base directory(required)
+  -w, --warning-num=  warning if more number of files(count) (default: 10)
+  -c, --critical-num= critical if more number of files(count) (default: 100)
+  -d, --debug         debug print
+
+Help Options:
+  -h, --help          Show this help message
 ```
 
 # Install
