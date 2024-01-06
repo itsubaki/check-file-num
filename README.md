@@ -1,6 +1,6 @@
 # check-fileagedir
 
-# Help
+## Help
 
 ```
 $ check-file-num -h
@@ -17,7 +17,7 @@ Help Options:
   -h, --help          Show this help message
 ```
 
-# Install
+## Install
 
 ```
 sudo mkr plugin install itsubaki/check-file-num@v0.1
